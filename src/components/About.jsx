@@ -9,7 +9,7 @@ const About = () => {
       <h5 className='text-center text-sm text-gray-300'>Get To Know</h5>
       <h2 className='text-center text-4xl text-second font-semibold mb-4 md:mb-14'>About Me</h2>
 
-      <div className='grid grid-cols-1 md:grid-cols-2 gap-0 md:gap-2'>
+      <div className='grid grid-cols-1 lg:grid-cols-2 gap-0 md:gap-2'>
         <div className='w-1/2 mt-4 mx-auto mb-8 md:w-96 aspect-square rounded-lg bg-second grid place-items-center'>
           <div className='rounder-xl overflow-hidden -rotate-6 duration-500 hover:rotate-0'>
             <img src={singlePhoto} alt="Hizkia Reppi" />

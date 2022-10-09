@@ -5,14 +5,14 @@ import { SiTailwindcss, SiCodeigniter, SiMicrosoftword, SiMicrosoftexcel, SiMicr
 
 const Skills = () => {
   return (
-    <div name='skills' className='w-full mt-10 text-gray-300'>
+    <div name='skills' className='w-full mt-10 text-gray-300 py-3 px-[6%] md:py-4 md:px-[11%]'>
       {/* Container */}
-      <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+      <div className='max-w-[1000px] mx-auto flex flex-col justify-center w-full h-full'>
         <div>
           <p className='text-4xl font-semibold inline border-b-4 border-second'>Skills</p>
         </div>
         <p className='text-lg font-normal mt-8'>Tech Stack</p>
-        <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-8 text-center py-8'>
+        <div className='w-full grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 text-center py-8'>
           <div className='shadow-md shadow-[#040C16] flex flex-col items-center hover:scale-110 duration-500'>
             <FaHtml5 className='text-5xl text-amber-700' />
             <p className='my-4'>HTML5</p>
@@ -47,7 +47,7 @@ const Skills = () => {
           </div>
         </div>
         <p className='text-lg font-normal -mt-2'>More Skiils</p>
-        <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-8 text-center py-8'>
+        <div className='w-full grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 text-center py-8'>
           <div className='shadow-md shadow-[#040C16] flex flex-col items-center hover:scale-110 duration-500'>
             <FaFigma className='text-5xl text-amber-700' />
             <p className='my-4'>Figma</p>
